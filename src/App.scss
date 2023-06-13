@@ -1,0 +1,72 @@
+*,
+*::before,
+*::after {
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+    text-align: center;
+
+    scroll-behavior: smooth;
+    transition: all 100ms ease-in-out;
+}
+
+
+
+
+.NavBar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 10vh;
+    height: 10dvh;
+
+    background-color: darkslateblue;
+    color: white;
+
+
+    .NavLinks {
+        list-style-type: none;
+
+        display: flex;
+        justify-content: space-between;
+
+        width: 30%;
+        cursor: pointer;
+
+        li {
+            color: white;
+        }
+
+        li:hover {
+            color: gainsboro;
+        }
+    }
+}
+
+
+.Shop {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 1rem;
+    margin: 1rem;
+    padding: 1rem;
+
+
+
+    .Item {
+        border-radius: 1rem;
+        width: 25rem;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+
+        color: black;
+        text-decoration: none;
+
+        img {
+            margin: 0.5rem;
+            width: 90%;
+        }
+    }
+}
